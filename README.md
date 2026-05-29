@@ -1,4 +1,4 @@
-# GitHub Tray Notifier
+# GitHub Notify
 
 A small Windows tray app that keeps an eye on your own GitHub repositories and lets you know when something happens on your issues and pull requests, without keeping a browser tab open.
 
