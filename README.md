@@ -9,9 +9,9 @@ A small Windows tray app that keeps an eye on your own GitHub repositories and l
 - Flags items with new activity (new comments, updates, and so on) with a count, and shows a small dot on a collapsed repository that has unread items.
 - Switches its tray icon when you have unread activity, and pops a Windows notification when something new arrives while the app isn't in focus.
 - Lives quietly in the system tray and stays out of your way.
-
-<img width="auto" height="500" alt="image" src="https://github.com/user-attachments/assets/b02e4ee7-29a1-4299-ae11-457a00ab138b" />
-<img width="auto" height="500" alt="image" src="https://github.com/user-attachments/assets/e6f4819a-3477-4516-8c51-152ed897293c" />
+  
+<img width="auto" height="600" alt="image" src="https://github.com/user-attachments/assets/0d91d7cd-a75d-44f6-95b8-e54742df9813" />
+<img width="auto" height="600" alt="image" src="https://github.com/user-attachments/assets/f82f7ffe-80b7-47e4-821c-100c565cd842" />
 
 ## What you need
 
