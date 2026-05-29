@@ -225,6 +225,12 @@ class App(QObject):
             if latest:
                 existing["last_updated"] = latest
             self.activity[key] = existing
+
+        # Keep activity only for items still present this poll. A deleted repo or item
+        # (or one filtered out) otherwise leaves orphan unread state that keeps the tray
+        # icon stuck on "unread" while the window shows nothing unread.
+        displayed = {item_key(it) for it in result.get("issues", []) + result.get("prs", [])}
+        self.activity = {k: v for k, v in self.activity.items() if k in displayed}
         save_activity(self.activity)
 
         self.seen = set(result.get("seen_ids", []))
